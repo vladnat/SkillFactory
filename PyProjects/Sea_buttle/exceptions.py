@@ -1,7 +1,6 @@
 class Error(Exception):
     pass
 
-
 class BoardOutException(Error):
     def __str__(self):
         return "Shot outside board!"
