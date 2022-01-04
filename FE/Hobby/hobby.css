@@ -37,4 +37,16 @@ div .logo-container {
     align-items: center;
 }
 
+div .content {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+div .image {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+
 
