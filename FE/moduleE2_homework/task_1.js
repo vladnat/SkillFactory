@@ -11,17 +11,16 @@ const EnterNumber = () => {
 
 export const NumIsNumber = () => {
     const num = EnterNumber()
-    if (typeof(num) == 'number') {
+    if (typeof(num) === 'number' && !isNaN(num)) {
         if (num % 2) {
             console.log('число нечетное')
         }
-        else if (isNaN(num)) {
-            console.log('Упс, кажется, вы ошиблись')
-        } 
         else {
             console.log('число четное')
         }
-    }
+    } else if (isNaN(num)) {
+        console.log('Упс, кажется, вы ошиблись')
+    } 
     return num
 }
 
