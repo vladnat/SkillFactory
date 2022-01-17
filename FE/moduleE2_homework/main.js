@@ -4,6 +4,7 @@ import { ReverseString } from "/task_3.js"
 import { RandomNum } from "/task_4.js"
 import { SummaryArray } from "/task_5.js"
 import { AllTheSameInArray } from "/task_6.js"
+import { CountTypesOfMassive } from "/task_7.js"
 
 
 let task_1 = document.querySelector('.task_1')
@@ -34,5 +35,10 @@ task_5.addEventListener('click', function() {
 let task_6 = document.querySelector('.task_6')
 task_6.addEventListener('click', function() {
     console.log(AllTheSameInArray())
+})
+
+let task_7 = document.querySelector('.task_7')
+task_7.addEventListener('click', function() {
+    console.log(CountTypesOfMassive())
 })
 
