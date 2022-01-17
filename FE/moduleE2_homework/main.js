@@ -5,6 +5,7 @@ import { RandomNum } from "/task_4.js"
 import { SummaryArray } from "/task_5.js"
 import { AllTheSameInArray } from "/task_6.js"
 import { CountTypesOfMassive } from "/task_7.js"
+import { ViewObject } from "/task_8.js"
 
 
 let task_1 = document.querySelector('.task_1')
@@ -40,5 +41,10 @@ task_6.addEventListener('click', function() {
 let task_7 = document.querySelector('.task_7')
 task_7.addEventListener('click', function() {
     console.log(CountTypesOfMassive())
+})
+
+let task_8 = document.querySelector('.task_8')
+task_8.addEventListener('click', function() {
+    ViewObject()
 })
 
