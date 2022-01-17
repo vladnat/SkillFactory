@@ -3,6 +3,7 @@ import { TypeX } from "/task_2.js"
 import { ReverseString } from "/task_3.js"
 import { RandomNum } from "/task_4.js"
 import { SummaryArray } from "/task_5.js"
+import { AllTheSameInArray } from "/task_6.js"
 
 
 let task_1 = document.querySelector('.task_1')
@@ -29,3 +30,9 @@ let task_5 = document.querySelector('.task_5')
 task_5.addEventListener('click', function() {
     SummaryArray()
 })
+
+let task_6 = document.querySelector('.task_6')
+task_6.addEventListener('click', function() {
+    console.log(AllTheSameInArray())
+})
+
