@@ -43,4 +43,4 @@ const CountTypesOfMassive = () => {
     return help(array)
 }
 
-CountTypesOfMassive()
+console.log(CountTypesOfMassive())
